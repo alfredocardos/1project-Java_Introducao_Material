@@ -19,11 +19,12 @@ public class Else_If {
 
         else{
                 categoria = "profissional";
-            
+            break;
               }
             System.out.println("parabens sua categoria é: "+ categoria);
-             }
     }
+}
+             
 
     // METODOD TERNARIO PARA STRINGS -
 
