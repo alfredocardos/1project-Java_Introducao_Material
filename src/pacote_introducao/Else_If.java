@@ -9,16 +9,17 @@ public class Else_If {
         String categoria;
         if (idade <15) {
             categoria = "juvenil";
-
+            break;
         }
 
         else if (idade>=15 && idade <18){
                categoria = "base";
-
+                break;
                  }
 
         else{
                 categoria = "profissional";
+            
               }
             System.out.println("parabens sua categoria é: "+ categoria);
              }
